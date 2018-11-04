@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cari"
+            android:icon="@drawable/ic_search_black"
+            android:title="Cari Data Part" />
+
+        <item
+            android:id="@+id/nav_part_cart"
+            android:icon="@drawable/ic_add_shopping_cart_black"
+            android:title="List Part" />
+
+        <item
+            android:id="@+id/nav_estimasi"
+            android:icon="@drawable/ic_shopping_cart_black"
+            android:title="List Estimasi" />
+
+        <item
+            android:id="@+id/nav_cetak"
+            android:icon="@drawable/ic_print_black"
+            android:title="Print"/>
+    </group>
+
+    <item android:title="Pengaturan Akun">
+        <menu>
+            <item
+                android:id="@+id/nav_keluar"
+                android:icon="@drawable/ic_power_settings_black"
+                android:title="Keluar" />
+        </menu>
+    </item>
+
+</menu>
